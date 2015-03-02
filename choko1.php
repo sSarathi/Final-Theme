@@ -1,3 +1,10 @@
+<?php
+/*
+ * Template Name: choko1
+ * Description: No Sidebar Page Template for globo theme
+ */
+?>
+
 <?php get_header(); ?>
 
 
@@ -18,9 +25,9 @@
 
 <div class="row">
 	<div class="col-sm-2">
+		
 
-
-	
+	<?php query_posts('post_type=portfolio'); ?>
 	</div>
 	<div class="col-sm-7 blog-main">
 		<div class="container">
